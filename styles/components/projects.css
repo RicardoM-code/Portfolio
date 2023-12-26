@@ -1,0 +1,70 @@
+.projects {
+  margin-bottom: 16rem;
+  scroll-margin-bottom: 15rem;
+}
+
+.projects-content {
+  max-width: 56rem;
+  text-align: center;
+  margin: 0 auto 6rem;
+}
+
+.projects ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.projects-reversed-list {
+  flex-direction: row-reverse;
+}
+
+.projects ul li:not(:last-child) {
+  margin-bottom: 12rem;
+}
+
+.image img {
+  width: 100%;
+  min-width: 40rem;
+  max-width: 47rem;
+  height: auto;
+}
+
+.project-info {
+  max-width: 47rem;
+}
+
+.project-info p {
+  margin: 1rem 0 4rem;
+}
+
+.project-info a {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.git {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.git a {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects ul li,
+  .projects-reversed-list {
+    flex-direction: column;
+  }
+
+  .project-info {
+    max-width: 66rem;
+  }
+
+  .image img {
+    min-width: auto;
+  }
+}

@@ -1,0 +1,40 @@
+.skills {
+  background-color: var(--light-tertiary-color);
+  scroll-margin-top: 15rem;
+}
+
+.skills-content {
+  padding: 6rem 4rem;
+  text-align: center;
+}
+
+.description {
+  max-width: 56rem;
+  margin: 0 auto 6rem;
+}
+
+.skills-content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-content ul li .image-container {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.image-container img {
+  max-width: 5rem;
+  max-height: 5rem;
+}
